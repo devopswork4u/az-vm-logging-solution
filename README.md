@@ -10,7 +10,7 @@ This module enables Linux VM syslog collection with Azure Monitor Agent and Azur
 - Remediates existing noncompliant VMs; the policy handles future Linux VM deployments.
 
 ```hcl
-module "linux_vm_logging" {
+module "az-vm-logging-solution" {
   source = "./logging"
 
   subscription_id           = var.subscription_id
